@@ -1,0 +1,51 @@
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #ECF2FF;
+}
+
+.circle {
+    height: 42px;
+    width: 42px;
+    background-color: rgb(235, 223, 135);
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: animate 2s infinite linear;
+}
+
+.circle:nth-child(1) {
+    animation-delay: 0.5s;
+    background-color: #F3CCFF;
+}
+
+.circle:nth-child(2) {
+    animation-delay: 1s;
+    background-color: #D09CFA;
+}
+
+.circle:nth-child(3) {
+    animation-delay: 1.5s;
+    background-color: #A084DC;
+}
+
+.circle:nth-child(4) {
+    animation-delay: 2s;
+    background-color: #645CBB;
+}
+
+.circle:nth-child(5) {
+    animation-delay: 2.5s;
+    background-color: #3E54AC;
+}
+
+@keyframes animate {
+    0%, 100% {
+        transform: translateY(5px);
+    }
+    50% {
+        transform: translateY(-25px);
+    }
+}
