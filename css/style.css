@@ -10,8 +10,8 @@
 .circle {
     height: 42px;
     width: 42px;
-    background-color: rgb(235, 223, 135);
     margin: 0 10px;
+    background-color: rgb(235, 223, 135);
     border-radius: 50%;
     animation: animate 2s infinite linear;
 }
